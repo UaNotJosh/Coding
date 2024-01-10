@@ -23,6 +23,10 @@ public class Bin_To_Dec {
         //For loop for decimal value
         for(int i = 0; i < stringL; i++){
             char digit = binaryIn.charAt(i);
+            if(digit != '1' || digit != '0'){
+                System.out.println("Please only input binary");
+                System.exit(1);
+            }
             if(digit == '1'){
                 runSum += Math.pow(2, stringL - 1 - i);
             }
