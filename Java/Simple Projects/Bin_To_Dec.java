@@ -34,5 +34,8 @@ public class Bin_To_Dec {
 
         //Print result
         System.out.println("The result in decimal is: " + runSum);
+
+        //Close scanner
+        scanner.close();
     }
 }

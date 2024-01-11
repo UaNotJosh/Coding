@@ -3,5 +3,13 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Dollars_To_Cents",
+            "request": "launch",
+            "mainClass": "Dollars_To_Cents",
+            "projectName": "Coding_55354cf3"
+        }
+    ]
 }
